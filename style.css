@@ -1,0 +1,335 @@
+@font-face {
+    font-family: RalewayRegular;
+    src: url(./fuentes/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: RalewayBold;
+    src: url(./fuentes/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: Dragon;
+    src: url(./fuentes/Dragonhunter.ttf);
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.estiloheader{
+    width: 1520px;
+    height: 128px;
+}
+.estiloppal{
+  
+    margin-top: -384px;
+    width: 1520px;
+    position: 0px;
+
+}
+
+.titulo{
+    font-family: "Dragon";
+    position: relative;
+    color: white;
+    padding-top: 48px;
+    padding-left: 144px;
+    padding-right: 600px;
+    font-size: 56px;
+    text-align: left;
+   
+}
+.subtitulo{
+font-family:"RalewayBold";
+position: relative;
+font-size: 24px;
+padding-left: 144px;
+text-align: left;
+padding-top: 24px;
+color: white;
+
+}
+
+.subtitulo2{
+    font-family:"RalewayBold";
+    position: relative;
+    font-size: 24px;
+    padding-left: 144px;
+    text-align: left;
+    color: white;
+    padding-right: 800px;
+}
+
+.boton1{
+    font-family:"RalewayBold";
+    position: absolute;
+    font-size: 28px;
+    height: 100px;
+    text-align: center;
+    border: 3px solid #E91F0A;
+    width: 294px;
+    margin-top: -420px;
+    margin-left: 144px;
+    padding: 24px;
+    color: #E91F0A;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.boton1:hover {
+    background-color:#E91F0A ;
+    color:white;
+    cursor: pointer;
+}
+.anclas1 {
+    font-family: "RalewayRegular";
+    padding-left: 144px;
+    margin-top: -200px;
+    font-size: 24px;
+    list-style: disc;
+    
+}
+.anclas1 li {
+    list-style-position: outside;
+    margin: 30px;
+}
+.anclas1 li::marker {
+    color: #ff0000;
+}
+
+.anclas1 a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.anclas1 a:hover {
+    color: #ff0000;
+}
+
+
+
+.seccion1detalle{
+
+    background-color: white;
+}
+
+.tituloseccion1{
+    font-family: "Dragon";
+    padding-left: 144px;
+    padding-top: 140px;
+    font-size: 36px;
+}
+ul li::marker {
+    color:#E91F0A;
+    font-size: 30px;
+  }
+
+.contenedor {
+    font-family:"RalewayBold";
+    padding-left: 144px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding-right: 100px;
+  }
+  
+ 
+  .columna-vertical {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  
+  .textosordenados {
+    padding: 20px;
+    text-align: left;
+    font-size: 24px;
+    
+  }
+
+  .seccion2detalle{
+background-image: url(imagenes/fondoseccion2.png);
+background-size: cover;
+height: 980px;
+
+  }
+
+.tituloseccion2{
+    font-family: "Dragon";
+    font-size: 36px;
+    padding-left: 144px;
+    padding-top: 100px;
+    padding-right: 144px;
+    color: white;
+}
+
+.descripcionseccion2{
+    font-family:"RalewayRegular";
+    font-size: 22px;
+    padding-left: 144px;
+    padding-top: 60px;
+    padding-right: 144px;
+    text-align: left;
+    color: white;
+}
+
+.experiencias{
+    padding-left: 144px;
+    padding-top: 60px;
+    color: white;
+}
+
+.tituloopciones{
+    font-family:"RalewayBold";
+    font-size: 24px;
+}
+
+.subtituloopciones{
+    font-family:"RalewayRegular";
+    padding-right: 144px;
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+
+.seccion3detalle{
+    padding-left: 144px;
+    margin-bottom: 240px;
+}
+
+.tituloseccion3{
+    font-family: "Dragon";
+    padding-top: 80px;
+    font-size: 36px;
+    color: #E91F0A;
+}
+
+.descripcionseccion3{
+    font-family:"RalewayRegular";
+    font-size: 24px;
+    padding-top: 40px;
+    padding-right: 144px;
+    text-align: left;
+    color:black;
+}
+
+.subtituloseccion3{
+    font-family:"RalewayBold";
+    font-size: 28px;
+    text-align: left;
+    color: #E91F0A;
+    padding-top: 30px;
+}
+
+.subtitulodosseccion3{
+    font-family:"RalewayRegular";
+    font-size: 28px;
+    text-align: left;
+    color: black;
+    padding-top: 30px;
+}
+
+.boton2{
+    font-family:"RalewayBold";
+    position: absolute;
+    color: #E91F0A !important;
+    margin-top: 60px;
+    font-size: 28px;
+    height: 100px;
+    text-align: center;
+    border: 3px solid #E91F0A;
+    width: 400px;
+    padding: 24px;
+    
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.boton2:hover {
+    background-color:#E91F0A ;
+    color:white !important;
+    cursor: pointer;
+}
+
+.seccion4detalle{
+    padding-left: 144px;
+    background-color: black;
+    height: 900px;
+}
+
+.tituloseccion4{
+    font-family: "Dragon";
+    padding-top: 100px;
+    font-size: 36px;
+    color: #ffffff;
+}
+
+
+.carousel {
+    margin-top: 100px;
+    width: 1000px;
+    height: 500px;
+    margin-left: 144px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #9a5851;
+}
+
+.ImagenCarrusel {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.carousel-indicators li {
+    background-color: #E91F0A;
+}
+.carousel-indicators .active {
+    background-color: #ffffff;
+}
+
+.tituloCarrusel{
+    font-family:"RalewayBold";
+    color: #E91F0A;
+}
+
+.seccion5detalle{
+    padding-left: 144px;
+    background-color: black;
+}
+
+.tituloseccion5{
+    padding-left: 144px;
+    font-family: "Dragon";
+    padding-top: 100px;
+    font-size: 36px;
+    color:#E91F0A;
+}
+
+.juegodetalle{
+    margin-left: 470px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+}
+
+.estilosfooter{
+position: absolute;
+width: 1520px;
+background-color:black;
+margin-top: 10px;
+
+}
+
+.textofooter{
+text-align: center;
+padding-top: 60px;
+padding-bottom: 60px;
+color: white;
+}
